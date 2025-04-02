@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === "development" ? "/" : "/buddy-inventory-clone/",
+  base: mode === "development" ? "/" : "/inv/",
   server: {
     host: "::",
     port: 8080,
